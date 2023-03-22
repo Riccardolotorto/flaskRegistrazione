@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Login</title>
+    </head>
+    <body>
+        <form action = "/risultato" method="POST">
+            <p>Inserisci il tuo nome: *</p> 
+            <input type = "text" name = "nome"><br>
+            <p>Inserisci il tuo cognome: *</p> 
+            <input type = "text" name = "cognome"><br>
+            <p>Inserisci la tua data di nascita: </p> 
+            <input type = "date" name = "data"><br>
+            <p>Inserisci la nazione di nascita: </p>
+            <select name = "nazione">
+                <option value = "italia">Italia</option>
+                <option value = "francia">Francia</option>
+                <option value = "germania">Germania</option>
+            </select><br>
+            <p>Inserisci il tuo username: *</p> 
+            <input type = "text" name = "username"><br>
+            <p>Inserisci la password: *</p> 
+            <input type = "password" name = "password"><br>
+            <p>Conferma la password: *</p> 
+            <input type = "password" name = "confermaPassword"><br>
+            <p>Inserisci la tua email: *</p> 
+            <input type = "email" name = "email"><br>
+            <p>Seleziona le lingue che conosci: </p> 
+            <input type = "checkbox" name = "lingua" value = "italiano">Italiano<br>
+            <input type = "checkbox" name = "lingua" value = "francese">Francese<br>
+            <input type = "checkbox" name = "lingua" value = "tedesco">Tedesco<br>
+            <p>Vuoi dare il tuo consenso alla pubblicità? *</p>
+            <input type = "radio" name = "scelta" value = "si" checked>si<br>
+            <input type = "radio" name = "scelta" value = "no">no<br><br>
+            <input type = "submit" name = "submit" />
+        </form>
+    </body>
